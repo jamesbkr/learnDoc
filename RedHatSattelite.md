@@ -65,4 +65,8 @@ Puppet is the backbone of the Configuration management strategy of Satellite.  T
 - Activation Keys: define which life-cycle environment the host should be placed in.  Which host collectoin the host should be assigned to.  Which organization the host should be a part of.  Whether to use a system template for the host. the subscritpoin usage limit for the host.  the specific subscription assigned to the host.
 - Host Group: sets variables for hosts in that group.  Hosts can belong to one host group but host groups can be nested in other host groups for layers of hosts. 
 
+### Content Management
+Manage Packages, errata updates, kickstart trees, and installation images.  Satellite requires a source to provide this contetn.  Content is configured by uploading a subscriptoin manifest file to the satellite server.  
+- Manifest is used to setup content providers and subscriptions.
+
 
